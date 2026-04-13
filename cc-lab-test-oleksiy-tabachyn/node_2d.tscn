@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bgg1bwphioev"]
+
+[ext_resource type="Script" uid="uid://c44etekb4xihm" path="res://draw_faces.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=1437966806]
+script = ExtResource("1_wtcfe")
