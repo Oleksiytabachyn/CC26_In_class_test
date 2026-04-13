@@ -4,3 +4,31 @@
 
 [node name="Node2D" type="Node2D" unique_id=1437966806]
 script = ExtResource("1_wtcfe")
+
+[node name="Label" type="Label" parent="." unique_id=1444806478]
+offset_left = 36.0
+offset_top = 18.0
+offset_right = 100.0
+offset_bottom = 45.0
+scale = Vector2(3, 3)
+text = "Happy: 0"
+
+[node name="Label2" type="Label" parent="." unique_id=392400776]
+offset_left = 32.0
+offset_top = 92.0
+offset_right = 96.0
+offset_bottom = 119.0
+scale = Vector2(3, 3)
+text = "Sad: 0"
+
+[node name="Button" type="Button" parent="." unique_id=770179584]
+offset_left = 248.0
+offset_top = 34.0
+offset_right = 333.0
+offset_bottom = 68.333336
+scale = Vector2(3, 3)
+text = "Click me"
+
+[connection signal="draw" from="." to="." method="_on_draw"]
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
