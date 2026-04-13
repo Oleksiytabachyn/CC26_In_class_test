@@ -12,6 +12,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	$Label.text="Happy: "+str(counts.happy_count)
 	$Label2.text="Sad: "+str(counts.sad)
+	$Label3.text="Reversed: "+str(counts.reversed)
 	pass
 
 

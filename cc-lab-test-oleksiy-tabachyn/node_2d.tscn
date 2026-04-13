@@ -29,6 +29,14 @@ offset_bottom = 68.333336
 scale = Vector2(3, 3)
 text = "Click me"
 
+[node name="Label3" type="Label" parent="." unique_id=1585325661]
+offset_left = 22.0
+offset_top = 188.0
+offset_right = 108.0
+offset_bottom = 215.0
+scale = Vector2(3, 3)
+text = "reversed: 0"
+
 [connection signal="draw" from="." to="." method="_on_draw"]
 [connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
